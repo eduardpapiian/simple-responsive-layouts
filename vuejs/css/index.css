@@ -1,0 +1,28 @@
+.wrapper{
+  max-width:600px;
+  margin:0 auto;
+}
+
+article, aside{
+ float:left;
+ height:200px;
+}
+
+article{
+  background:yellow;
+}
+
+aside{
+  background:green;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notebook{
+  width:50%;
+}
+
+.mobile{
+  width:100%;
+}

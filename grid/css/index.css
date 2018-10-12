@@ -1,0 +1,21 @@
+.wrapper{
+  max-width:600px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+article, aside{
+  height:200px;
+}
+
+article{
+  background:yellow;
+}
+
+aside{
+  background:green;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
